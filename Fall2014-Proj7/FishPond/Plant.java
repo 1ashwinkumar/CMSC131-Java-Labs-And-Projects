@@ -46,7 +46,7 @@ public class Plant{
 	public int getSize(){return size;}
 	
 	/** increments size by one unit */
-	public void grow(){size+=1;}
+	public void grow(){size++;}
 	
 	/** decreases size by biteSize units */
 	public void removeBite(int biteSize){size-=biteSize;}
