@@ -47,7 +47,7 @@ public class Random131{
      * 
      * @return random integer value in the specified range
      */
-    public static int getRandomInteger(int maxValue) {
+    public static int getRandomInteger(int maxValue){
         if(!initialized) init();
         return generator.nextInt(maxValue);
     }
