@@ -13,14 +13,14 @@ public class Interview{
 		//Prompt the user for their age in whole years and read it.
 		//The prompt needs to be "How old are you in full years?" and allow the user to enter 
 		//   their answer on the same line as where the prompt appears.
-        System.out.print("How old are you in full years? ");
-        int age=myScanner.nextInt();
+        	System.out.print("How old are you in full years? ");
+        	int age=myScanner.nextInt();
 		
 		//Ask how many full months it has been since their last birthday and read it.
 		//The prompt needs to be "How many full months has it been since your last birthday?" 
 		//   and allow the user to enter their answer on the same line as where the prompt appears.
-        System.out.print("How many full months has it been since your last birthday? ");
-        int month=myScanner.nextInt();		
+        	System.out.print("How many full months has it been since your last birthday? ");
+        	int month=myScanner.nextInt();		
 		
 		myScanner.close(); //This closes the input scanner since you are done with it by this point.
 		
