@@ -72,8 +72,8 @@ public class OperatorMaker{
 	}
 
 	public static void divide(SquareGrid grid){
-		int size=grid.getHt()-1;
-		for(int row=0; row<=size; row++) grid.setColor(row, size-row, Color.BLUE);
+		int size=grid.getHt();
+		for(int row=0; row<size; row++) grid.setColor(row, size-row, Color.BLUE);
 	}
 
 	public static void multiply(SquareGrid grid){
